@@ -12,29 +12,28 @@
   <style>
    <style>
     :root {
-  /* Dark backdrop with a soft green radial glow in the center */
-  --bg: #050706;
-  --card-bg: rgba(18, 22, 28, 0.7);
-  --border: rgba(255, 255, 255, 0.08);
-  --accent: #22c55e;
-  --accent-glow: rgba(34, 197, 94, 0.25);
-  --text: #ffffff;
-  --muted: #9ca3af;
-  --warning: #f59e0b;
-  --danger: #ef4444;
-}
+      --bg: #0f1117;
+      --card-bg: rgba(26, 29, 41, 0.7);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #55ff55;
+      --accent-glow: rgba(85, 255, 85, 0.3);
+      --text: #f0f6fc;
+      --muted: #8b949e;
+      --warning: #ffaa00;
+      --danger: #ff5555;
+    }
 
-body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background-color: var(--bg);
-  /* Central radial spotlight effect matching the screenshot */
-  background-image: radial-gradient(circle at 50% 35%, rgba(34, 197, 94, 0.12) 0%, rgba(5, 7, 6, 0.95) 60%);
-  background-attachment: fixed;
-  color: var(--text);
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
     /* --- NAVIGATION BAR --- */
     nav {
       position: sticky;

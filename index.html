@@ -10,16 +10,17 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f1117'/><text x='50%' y='68%' font-size='52' font-weight='900' font-family='sans-serif' fill='%2355ff55' text-anchor='middle'>MC</text></svg>">
 
   <style>
+   <style>
     :root {
-      --bg: #0f1117;
-      --card-bg: rgba(26, 29, 41, 0.7);
-      --border: rgba(255, 255, 255, 0.1);
-      --accent: #55ff55;
-      --accent-glow: rgba(85, 255, 85, 0.3);
-      --text: #f0f6fc;
-      --muted: #8b949e;
-      --warning: #ffaa00;
-      --danger: #ff5555;
+      --bg: #050706;
+      --card-bg: rgba(18, 22, 28, 0.7);
+      --border: rgba(255, 255, 255, 0.08);
+      --accent: #22c55e;
+      --accent-glow: rgba(34, 197, 94, 0.25);
+      --text: #ffffff;
+      --muted: #9ca3af;
+      --warning: #f59e0b;
+      --danger: #ef4444;
     }
 
     * { box-sizing: border-box; }
@@ -27,6 +28,8 @@
     body {
       font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
       background-color: var(--bg);
+      background-image: radial-gradient(circle at 50% 35%, rgba(34, 197, 94, 0.12) 0%, rgba(5, 7, 6, 0.95) 60%);
+      background-attachment: fixed;
       color: var(--text);
       margin: 0;
       padding: 0;
